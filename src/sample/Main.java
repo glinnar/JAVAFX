@@ -114,10 +114,9 @@ public class Main extends Application {
         GridPane.setHalignment(fortsatt, HPos.RIGHT);
         gridPane2.add(back, 0, 8);
         GridPane.setHalignment(back, HPos.LEFT);
-        gridPane2.add(values,5,6);
+        gridPane2.add(values, 5, 6);
         // gridPane2.add(avbryt,3,8);
         // GridPane.setHalignment(avbryt, HPos.RIGHT);
-
 
 
         // Set the scene
@@ -131,7 +130,4 @@ public class Main extends Application {
         launch(args);
     }
 
-    public static void getValues(ActionEvent event){
-
-    }
 }
